@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./pagenews.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="pagenews">
+      <img class="body-paints-icon2" alt="" src="./public/body-paints@2x.png" />
+
+      <img class="icon1" alt="" src="./public/0049-1@2x.png" />
+
+      <div class="divnews-title-wrapper2">
+        <div class="heading-24">news</div>
+      </div>
+      <div class="footer3">
+        <div class="divcontainer3">
+          <div class="divfirst-row3">
+            <div class="divfooter-main-social3">
+              <img class="link-icon5" alt="" src="./public/link@2x.png" />
+
+              <div class="link6">
+                <img
+                  class="span-icon4"
+                  alt=""
+                  src="./public/span-icon@2x.png"
+                />
+              </div>
+              <img class="link-icon6" alt="" src="./public/link@2x.png" />
+            </div>
+          </div>
+          <div class="section3">© 2023 - 2024 Grad blablabla</div>
+        </div>
+      </div>
+      <div class="divmain-top-menu3">
+        <div class="divtop-menu-internal-wrapper3">
+          <div class="divmenu-items3">
+            <div class="story3">Story</div>
+            <div class="news3">About</div>
+            <div class="map3">MAP</div>
+            <div class="about3">News</div>
+          </div>
+          <div class="divlogo-wrapper3" id="divlogoWrapperContainer">
+            <img
+              class="syndarian-twilight-13"
+              alt=""
+              src="./public/syndarian-twilight-1@2x.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="pagenews-child"></div>
+    </div>
+
+    <script>
+      var divlogoWrapperContainer = document.getElementById(
+        "divlogoWrapperContainer"
+      );
+      if (divlogoWrapperContainer) {
+        divlogoWrapperContainer.addEventListener("click", function (e) {
+          window.location.href = "./mainpage1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
