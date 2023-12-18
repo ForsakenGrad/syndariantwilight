@@ -2,73 +2,71 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
 }
 .icon {
-  position: absolute;
   top: 0.4px;
   left: 0.2px;
   width: 1920px;
   height: 2434px;
+}
+.icon,
+.link-icon2,
+.span-icon1 {
+  position: absolute;
   object-fit: cover;
 }
-.link-icon3 {
-  position: absolute;
+.link-icon2 {
   top: calc(50% - 23.5px);
   left: 75px;
   width: 50px;
   height: 50px;
-  object-fit: cover;
 }
-.span-icon3 {
-  position: absolute;
+.span-icon1 {
   top: calc(50% - 9.5px);
   left: calc(50% - 10px);
   width: 20px;
   height: 20px;
-  object-fit: cover;
 }
-.link5 {
+.link-icon3,
+.link2 {
   position: absolute;
   top: calc(50% - 25.5px);
   left: 225px;
   width: 50px;
   height: 50px;
 }
-.link-icon4 {
-  position: absolute;
+.link-icon3 {
   top: calc(50% - 23.5px);
   left: 150px;
-  width: 50px;
-  height: 50px;
   object-fit: cover;
 }
-.divfooter-main-social2 {
+.divfooter-main-social1 {
   position: absolute;
   height: calc(100% - 1px);
   top: 1px;
-  bottom: 0px;
+  bottom: 0;
   left: 576px;
   width: 350px;
 }
-.divfirst-row2 {
+.divfirst-row1 {
   position: absolute;
   width: calc(100% - 32px);
-  top: 0px;
+  top: 0;
   right: 16px;
   left: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid var(--color-gray-100);
   box-sizing: border-box;
   height: 100px;
 }
-.section2 {
+.section1 {
   position: absolute;
   top: 149px;
   left: 557px;
@@ -79,25 +77,25 @@
   height: 21px;
   opacity: 0.54;
 }
-.divcontainer2 {
+.divcontainer1 {
   position: absolute;
   top: 16px;
   left: calc(50% - 767px);
   width: 1534px;
   height: 297px;
 }
-.footer2 {
+.footer1 {
   position: absolute;
   width: 100%;
   top: 2116.4px;
   right: -0.2px;
   left: 0.2px;
-  background-color: rgba(54, 64, 69, 0.5);
+  background-color: var(--color-darkslategray-100);
   height: 313px;
   text-align: center;
-  color: #eee;
+  color: var(--color-whitesmoke);
 }
-.story2 {
+.story1 {
   position: absolute;
   top: 21px;
   left: 197px;
@@ -107,54 +105,48 @@
   width: 158.2px;
   height: 19px;
 }
-.news2 {
-  position: absolute;
+.news1 {
   top: 21px;
-  left: 0px;
+  left: 0;
+  width: 51.4px;
+}
+.about1,
+.map1,
+.news1 {
+  position: absolute;
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  width: 51.4px;
   height: 19px;
 }
-.map2 {
-  position: absolute;
+.map1 {
   top: 20px;
   left: 131px;
-  text-transform: uppercase;
   text-align: center;
-  display: flex;
-  align-items: center;
   justify-content: center;
   width: 45.3px;
-  height: 19px;
 }
-.about2 {
-  position: absolute;
+.about1 {
   top: 21px;
   left: 70px;
-  text-transform: uppercase;
-  display: flex;
-  align-items: center;
   width: 44.2px;
-  height: 19px;
 }
-.divmenu-items2 {
+.divmenu-items1 {
   position: absolute;
   top: calc(50% - 30px);
   left: 270px;
   width: 1314px;
   height: 60px;
 }
-.syndarian-twilight-12 {
+.syndarian-twilight-11 {
   position: absolute;
-  top: 0px;
+  top: 0;
   left: -18px;
   width: 252px;
   height: 44px;
   object-fit: cover;
 }
-.divlogo-wrapper2 {
+.divlogo-wrapper1 {
   position: absolute;
   top: calc(50% - 22px);
   left: 16px;
@@ -162,21 +154,21 @@
   height: 44px;
   cursor: pointer;
 }
-.divtop-menu-internal-wrapper2 {
+.divtop-menu-internal-wrapper1 {
   position: absolute;
   height: 100%;
-  top: 0px;
-  bottom: 0px;
+  top: 0;
+  bottom: 0;
   left: calc(50% - 800px);
   width: 1600px;
 }
-.divmain-top-menu2 {
+.divmain-top-menu1 {
   position: absolute;
   width: 100%;
   top: 0.4px;
   right: -0.2px;
   left: 0.2px;
-  background-color: rgba(54, 65, 69, 0.5);
+  background-color: var(--color-darkslategray-200);
   height: 60px;
 }
 .pageabout-child {
@@ -187,7 +179,7 @@
   height: 100px;
   overflow: hidden;
 }
-.heading-23 {
+.heading-21 {
   position: absolute;
   top: 26.5px;
   left: 16px;
@@ -199,7 +191,7 @@
   width: 215px;
   height: 38px;
 }
-.divnews-title-wrapper1 {
+.divnews-title-wrapper {
   position: absolute;
   height: calc(100% - 2338.1px);
   width: calc(100% - 410px);
@@ -207,14 +199,14 @@
   right: 205px;
   bottom: 2210.1px;
   left: 205px;
-  font-size: 32px;
+  font-size: var(--font-size-13xl);
 }
 .pageabout {
   position: relative;
   width: 100%;
   height: 2429.2px;
   text-align: left;
-  font-size: 16px;
-  color: #fff;
-  font-family: Roboto;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
 }
