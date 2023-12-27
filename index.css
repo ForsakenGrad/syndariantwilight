@@ -380,7 +380,7 @@
   height: 192px;
   overflow: hidden;
   flex-shrink: 0;
-  background-image: url(./public/article@3x.png);
+  background-image: url(./public/article1@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -412,7 +412,7 @@
   height: 192px;
   overflow: hidden;
   flex-shrink: 0;
-  background-image: url(./public/article1@3x.png);
+  background-image: url(./public/article11@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

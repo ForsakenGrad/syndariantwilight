@@ -1,9 +1,9 @@
-.body-paints-icon10,
-.icon9 {
+.body-paints-icon2,
+.icon1 {
   position: absolute;
   object-fit: cover;
 }
-.body-paints-icon10 {
+.body-paints-icon2 {
   height: 100%;
   width: 100%;
   top: 0;
@@ -14,13 +14,13 @@
   overflow: hidden;
   max-height: 100%;
 }
-.icon9 {
+.icon1 {
   top: 0.4px;
   left: 0.2px;
   width: 1920px;
   height: 2434px;
 }
-.heading-210 {
+.heading-22 {
   position: absolute;
   top: 26.5px;
   left: 16px;
@@ -32,7 +32,7 @@
   width: 215px;
   height: 38px;
 }
-.divnews-title-wrapper9 {
+.divnews-title-wrapper1 {
   position: absolute;
   height: calc(100% - 2338.1px);
   width: calc(100% - 410px);
@@ -50,26 +50,26 @@
   height: 100px;
   overflow: hidden;
 }
-.link-icon20,
-.span-icon10 {
+.link-icon4,
+.span-icon2 {
   position: absolute;
   object-fit: cover;
 }
-.link-icon20 {
+.link-icon4 {
   top: calc(50% - 23.5px);
   left: 75px;
   width: 50px;
   height: 50px;
   cursor: pointer;
 }
-.span-icon10 {
+.span-icon2 {
   top: calc(50% - 9.5px);
   left: calc(50% - 10px);
   width: 20px;
   height: 20px;
 }
-.link-icon21,
-.link11 {
+.link-icon5,
+.link3 {
   position: absolute;
   top: calc(50% - 25.5px);
   left: 225px;
@@ -77,12 +77,12 @@
   height: 50px;
   cursor: pointer;
 }
-.link-icon21 {
+.link-icon5 {
   top: calc(50% - 23.5px);
   left: 150px;
   object-fit: cover;
 }
-.divfooter-main-social10 {
+.divfooter-main-social2 {
   position: absolute;
   height: calc(100% - 1px);
   top: 1px;
@@ -90,7 +90,7 @@
   left: 576px;
   width: 350px;
 }
-.divfirst-row10 {
+.divfirst-row2 {
   position: absolute;
   width: calc(100% - 32px);
   top: 0;
@@ -100,7 +100,7 @@
   box-sizing: border-box;
   height: 100px;
 }
-.section10 {
+.section2 {
   position: absolute;
   top: 170.6px;
   left: 586.8px;
@@ -111,14 +111,14 @@
   height: 21px;
   opacity: 0.54;
 }
-.divcontainer10 {
+.divcontainer2 {
   position: absolute;
   top: 16px;
   left: calc(50% - 767px);
   width: 1534px;
   height: 297px;
 }
-.footer10 {
+.footer2 {
   position: absolute;
   width: 100%;
   top: 2116px;
@@ -129,7 +129,7 @@
   text-align: center;
   color: var(--color-whitesmoke);
 }
-.syndarian-twilight-110 {
+.syndarian-twilight-12 {
   position: absolute;
   top: 0;
   left: -18px;
@@ -137,14 +137,14 @@
   height: 44px;
   object-fit: cover;
 }
-.divlogo-wrapper10,
-.story10 {
+.divlogo-wrapper2,
+.story2 {
   position: relative;
   width: 230px;
   height: 44px;
   cursor: pointer;
 }
-.story10 {
+.story2 {
   position: absolute;
   top: 21px;
   left: 197px;
@@ -154,38 +154,37 @@
   width: 158.2px;
   height: 19px;
 }
-.news10 {
+.news2 {
   left: 131px;
   width: 44.2px;
-  cursor: pointer;
 }
-.about10,
-.map11,
-.news10 {
+.about2,
+.map2,
+.news2 {
   position: absolute;
   top: 21px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
   height: 19px;
+  cursor: pointer;
 }
-.map11 {
+.map2 {
   left: 68px;
   text-align: center;
   justify-content: center;
   width: 45.3px;
 }
-.about10 {
+.about2 {
   left: 0;
   width: 51.4px;
-  cursor: pointer;
 }
-.divmenu-items10 {
+.divmenu-items2 {
   position: relative;
   width: 1314px;
   height: 60px;
 }
-.divtop-menu-internal-wrapper10 {
+.divtop-menu-internal-wrapper2 {
   width: 1600px;
   height: 60px;
   display: flex;
@@ -196,7 +195,7 @@
   box-sizing: border-box;
   gap: var(--gap-5xl);
 }
-.divmain-top-menu10 {
+.divmain-top-menu2 {
   position: absolute;
   top: 0;
   left: 0;

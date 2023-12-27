@@ -13,61 +13,57 @@
   </head>
   <body>
     <div class="article31">
-      <img
-        class="body-paints-icon10"
-        alt=""
-        src="./public/body-paints@2x.png"
-      />
+      <img class="body-paints-icon2" alt="" src="./public/body-paints@2x.png" />
 
-      <img class="icon9" alt="" src="./public/0049-1@2x.png" />
+      <img class="icon1" alt="" src="./public/0049-1@2x.png" />
 
-      <div class="divnews-title-wrapper9">
-        <div class="heading-210">news</div>
+      <div class="divnews-title-wrapper1">
+        <div class="heading-22">news</div>
       </div>
       <div class="article3-child"></div>
-      <div class="footer10">
-        <div class="divcontainer10">
-          <div class="divfirst-row10">
-            <div class="divfooter-main-social10">
+      <div class="footer2">
+        <div class="divcontainer2">
+          <div class="divfirst-row2">
+            <div class="divfooter-main-social2">
               <img
-                class="link-icon20"
+                class="link-icon4"
                 alt=""
-                src="./public/link@2x.png"
+                src="./public/link2@2x.png"
                 id="linkIcon"
               />
 
-              <div class="link11" id="linkContainer">
+              <div class="link3" id="linkContainer">
                 <img
-                  class="span-icon10"
+                  class="span-icon2"
                   alt=""
                   src="./public/span-icon@2x.png"
                 />
               </div>
               <img
-                class="link-icon21"
+                class="link-icon5"
                 alt=""
-                src="./public/link@2x.png"
+                src="./public/link1@2x.png"
                 id="linkIcon1"
               />
             </div>
           </div>
-          <div class="section10">© 2023 - 2024 Grad blablabla</div>
+          <div class="section2">© 2023 - 2024 Grad blablabla</div>
         </div>
       </div>
-      <div class="divmain-top-menu10">
-        <div class="divtop-menu-internal-wrapper10">
-          <div class="divlogo-wrapper10" id="divlogoWrapperContainer">
+      <div class="divmain-top-menu2">
+        <div class="divtop-menu-internal-wrapper2">
+          <div class="divlogo-wrapper2" id="divlogoWrapperContainer">
             <img
-              class="syndarian-twilight-110"
+              class="syndarian-twilight-12"
               alt=""
-              src="./public/syndarian-twilight-1@2x.png"
+              src="./public/syndarian-twilight-11@2x.png"
             />
           </div>
-          <div class="divmenu-items10">
-            <div class="story10" id="storyText">Story</div>
-            <div class="news10" id="newsText">News</div>
-            <div class="map11">MAP</div>
-            <div class="about10" id="aboutText">About</div>
+          <div class="divmenu-items2">
+            <div class="story2" id="storyText">Story</div>
+            <div class="news2" id="newsText">News</div>
+            <div class="map2" id="mapText">MAP</div>
+            <div class="about2" id="aboutText">About</div>
           </div>
         </div>
       </div>
@@ -99,11 +95,8 @@
         "divlogoWrapperContainer"
       );
       if (divlogoWrapperContainer) {
-        divlogoWrapperContainer.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='frameContainer']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
+        divlogoWrapperContainer.addEventListener("click", function (e) {
+          window.location.href = "./mainpage.html";
         });
       }
       
@@ -117,7 +110,14 @@
       var newsText = document.getElementById("newsText");
       if (newsText) {
         newsText.addEventListener("click", function (e) {
-          window.location.href = "./article3.html";
+          window.location.href = "./sidearticle1.html";
+        });
+      }
+      
+      var mapText = document.getElementById("mapText");
+      if (mapText) {
+        mapText.addEventListener("click", function (e) {
+          window.location.href = "./map.html";
         });
       }
       

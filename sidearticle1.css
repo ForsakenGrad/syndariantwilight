@@ -157,10 +157,9 @@
 .news6 {
   left: 131px;
   width: 44.2px;
-  cursor: pointer;
 }
 .about6,
-.map7,
+.map6,
 .news6 {
   position: absolute;
   top: 21px;
@@ -168,8 +167,9 @@
   display: flex;
   align-items: center;
   height: 19px;
+  cursor: pointer;
 }
-.map7 {
+.map6 {
   left: 68px;
   text-align: center;
   justify-content: center;
@@ -178,7 +178,6 @@
 .about6 {
   left: 0;
   width: 51.4px;
-  cursor: pointer;
 }
 .divmenu-items6 {
   position: relative;
