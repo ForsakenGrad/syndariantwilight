@@ -14,20 +14,18 @@ body {
   --font-size-sm: 14px;
 
   /* Colors */
-  --color-darkslategray-200: rgba(54, 65, 69, 0.5);
   --color-darkslategray-100: rgba(54, 64, 69, 0.5);
-  --color-whitesmoke: #eee;
-  --color-gray-100: rgba(255, 255, 255, 0.1);
+  --color-darkslategray-200: rgba(54, 65, 69, 0.5);
   --color-white: #fff;
+  --color-whitesmoke: #eee;
   --color-crimson: #e60028;
   --color-orangered: #f75800;
+  --color-gray-100: rgba(255, 255, 255, 0.1);
 
   /* Gaps */
   --gap-5xl: 24px;
-  --gap-25xl: 44px;
 
   /* Paddings */
   --padding-base: 16px;
-  --padding-xs: 12px;
-  --padding-13xl: 32px;
+  --padding-lg: 18px;
 }
